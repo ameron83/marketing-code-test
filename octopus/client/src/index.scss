@@ -1,0 +1,73 @@
+body {
+    font-family: "Gotham", helvetica, arial, sans-serif;
+    margin: 0;
+    background-color: #050f2a;
+    color: white;
+}
+
+.wrapper {
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+div[class^="row"] {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h1,
+h2 {
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+
+img {
+    &.header-img {
+        max-height: 40px;
+    }
+    &.item-img {
+        max-width: 80%;
+    }
+}
+
+.light-bg {
+    background-color: #01193b;
+}
+
+.spec-border {
+    border-bottom: #01193b 1px solid;
+}
+
+.blue-text {
+    color: #36598d;
+}
+
+.footer-text {
+    margin-top: 1rem;
+    color: #7186a5;
+    font-size: small;
+}
+
+.add-button {
+    background: linear-gradient(180deg, #ff60a8 50%, #fb1a7b 50%);
+    border-color: #fb1a7b;
+}
+
+.increment-button {
+    background-color: #36598d;
+    border-color: #36598d;
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    &:disabled {
+        opacity: unset;
+        background-color: #1a2a43;
+        border-color: #1a2a43;
+    }
+}
+
+.basket-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
